@@ -1,9 +1,0 @@
-1. 使用pyinstaller对两个module进行封装
-2. 封装mainGUI，并且添加两个已经封装好的module可执行文件
-3. 使用Enigma Virtual Box将.ui文件添加至mainGUI文件内（否则需将ui文件与主程序置于同一文件夹才可正常运行）
-
-Tip
-pyinstaller是Python的一个库，可以通过cmd中"pip install pyinstaller"进行安装。建议同时安装auto-py-to-exe库，提供pyinstaller的可视化支持。使用方法为在cmd中执行"auto-py-to-exe"即可
-
-Enigma Virtual Box为第三方软件。
-至于为何要分两步分别封装module和.ui文件，是因为我试了一下，只有这样才不会报错。一次封装完总是会报错。
